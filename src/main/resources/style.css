@@ -1,0 +1,33 @@
+
+Button {
+    -fx-background-size: 100% 100%;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#go {
+    -fx-background-image: url("buttons/play.png");
+}
+#refresh {
+    -fx-background-image: url("buttons/square_refresh.png");
+}
+#back {
+    -fx-background-image: url("buttons/back.png");
+}
+#forward {
+    -fx-background-image: url("buttons/forward.png");
+}
+
+#zoomIn {
+    -fx-background-image: url("buttons/round_zoomIn.png");
+}
+
+#zoomOut {
+    -fx-background-image: url("buttons/round_zoomOut.png");
+}
+
+Button:hover{
+    -fx-background-size: 92% 92%;
+
+}
